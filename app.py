@@ -5,7 +5,7 @@ from datetime import datetime, date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 app = Flask(__name__)
-CORS(app, origins=["*"])
+CORS(app, origins=["https://argentinaenergia.com", "https://www.argentinaenergia.com", "https://voluble-pony-eee158.netlify.app"])
 
 CAMMESA_BASE = "https://api.cammesa.com/demanda-svc/demanda"
 RENOVABLES_BASE = "https://cdsrenovables.cammesa.com/exhisto/RenovablesService"
